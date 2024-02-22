@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(2, 2, 39);
+}
+
+#container{
+    width: 60vw;
+    margin: auto;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.image{
+    height: 200px;
+    width: 250px;
+}
+
+p{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.food-menu{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    transition: 2s;
+    /* column-gap: 0.3rem; */
+}
+
+.food-btn{
+    text-align: center;
+    margin-bottom: 1rem;
+}
